@@ -5,4 +5,5 @@
       2. 更新系统的运行级别
             自动进入图形界面，那么我们需要更改系统的运行级别，输入下面的命令来启用图形界面。
 
-#：$sudo ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+#：$sudo ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+##系统默认禁用共享剪切板和文件拖放，需要在设置——常规——高级选项中关闭禁用

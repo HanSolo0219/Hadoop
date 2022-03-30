@@ -1,0 +1,8 @@
+  1.在命令行下输入下面的命令来安装 Gnome 包
+
+#：$sudo  yum groupinstall "GNOME Desktop" "Graphical Administration Tools"
+
+      2. 更新系统的运行级别
+            自动进入图形界面，那么我们需要更改系统的运行级别，输入下面的命令来启用图形界面。
+
+#：$sudo ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target

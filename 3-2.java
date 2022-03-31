@@ -2,7 +2,7 @@ package com.hdfsclient;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.net.URI;
+import java.net.URI;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;

@@ -10,7 +10,7 @@ import org.apache.hadoop.io.IOUtils;
  
 public class FileSystemCat {
     public static void main(String[]  args) throws IOException {
-        String uri = "hdfs://master:9000/user/hadoop/test";
+        String uri = "hdfs://master:9000/user/test/wordcountinput/words1.txt";
         Configuration conf = new Configuration();
         FileSystem fs = FileSystem.get(URI.create(uri), conf);
    

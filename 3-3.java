@@ -12,7 +12,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IOUtils;
  
 public class FileCopyFromLocal {
-    public static main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         String source = "/home/hadoop/test";
         String destination = "hdfs://master:9000/user/hadoop/test2";
         InputStream in = new BufferedInputStream(new FileInputStream(source));

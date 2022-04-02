@@ -7,3 +7,4 @@
 
 #：$sudo ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
 ##系统默认禁用共享剪切板和文件拖放，需要在设置——常规——高级选项中关闭禁用
+This script is Deprecated. Instead use start-dfs.sh and start-yarn.sh

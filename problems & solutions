@@ -1,6 +1,7 @@
 1.
 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+可能是hadoop未启动成功，关闭Hadoop（stop-all.sh）重新启动（start-all.sh）
 2.
-hadoop dfs -cat /user/test/wordcountinput/words1.txt
+3-2需要修改代码中的/user/hadoop/test为/user/test/wordcountinput/words1.txt
 3.
 3-3实验需要在/home/hadoop/下先建一个test文件再运行打包好的jar包

@@ -5,3 +5,5 @@ WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platfo
 3-2需要修改代码中的/user/hadoop/test为/user/test/wordcountinput/words1.txt
 3.
 3-3实验需要在/home/hadoop/下先建一个test文件再运行打包好的jar包
+4.
+Exception in thread "main" java.lang.ClassNotFoundException: com.hdfsclient.FileCopyFromLocal

@@ -1,0 +1,10 @@
+## 安装GitHub一键下载文件
+
+1. 安装git：yum install -y git
+
+2. 下载仓库文件：git clone https://github.com/HanSolo0219/Hadoop.git
+
+   
+
+   
+

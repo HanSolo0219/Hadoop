@@ -9,8 +9,8 @@ vim XX.java
 export CLASSPATH=/opt/hadoop-2.6.0-cdh5.6.0/share/hadoop/common/hadoop-common-2.6.0-cdh5.6.0.jar
 javac xx.java
 ls检查
-5.打jar包(#改为数字；-C大写；xx都为小写)
-vim /opt/mymanifest#
-jar cfvm xx.jar mymanifest# -C xx .
+5.打jar包(-C大写；xx都为小写)
+vim /opt/mymanifest
+jar cfvm xx.jar mymanifest -C xx .
 6.调用
 hadoop jar xx.jar com.hdfsclient.XX

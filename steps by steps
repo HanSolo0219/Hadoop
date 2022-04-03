@@ -1,0 +1,4 @@
+java:
+export CLASSPATH=/opt/hadoop-2.6.0-cdh5.6.0/share/hadoop/common/hadoop-common-2.6.0-cdh5.6.0.jar
+hadoop:
+/opt/hadoop-2.6.0-cdh5.6.0/sbin/start-all.sh

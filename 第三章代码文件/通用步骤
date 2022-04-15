@@ -1,0 +1,16 @@
+1.创建文件夹目录(xx为文件夹名，小写)
+mkdir -p /opt/xx/com/hdfsclient/
+2.启动hadoop系统
+/opt/hadoop-2.6.0-cdh5.6.0/sbin/start-all.sh
+输入jps检查
+3.编写java文件（XX单词首字母大写）
+vim XX.java
+4.添加java路径并编译Java文件
+export CLASSPATH=/opt/hadoop-2.6.0-cdh5.6.0/share/hadoop/common/hadoop-common-2.6.0-cdh5.6.0.jar
+javac xx.java
+ls检查
+5.打jar包(-C大写；xx都为小写)
+vim /opt/mymanifest
+jar cfvm xx.jar mymanifest -C xx .
+6.调用
+hadoop jar xx.jar com.hdfsclient.XX
